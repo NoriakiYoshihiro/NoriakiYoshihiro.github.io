@@ -1,0 +1,85 @@
+/*
+ #id  , .class
+ */
+
+body {
+    background-color: white;
+}
+
+button {
+    width:140px;
+    height:60px;
+    font-size:20px;
+}
+
+.container1 {
+    display: flex;
+}
+
+/*
+ ====================
+  field
+ ====================
+*/
+
+.cell {
+    font-size: 40pt;
+    width: 80px;
+    height: 80px;
+    background-color: green;
+    text-align: center;
+     margin-top:auto;
+    margin-bottom:auto;
+}
+
+#areaField {
+    text-align: center;
+}
+
+#fieldTable {
+    border-color: red;
+    border-width: 20px;
+}
+
+
+
+/*
+ ====================
+  info
+ ====================
+*/
+.info00 {
+    text-align:center;
+    width: 160px;
+    /*height:80px;*/
+    background-color:#DFDFDF;
+}
+.info01 {
+    text-align:center;
+    width:160px;
+    /*height:80px;*/
+    background-color: #DFDFDF;
+}
+
+#areaInfo {
+    display: grid;
+    place-items: center;
+    font-size: 40px;
+}
+
+/*
+ ====================
+  log
+ ====================
+*/
+#areaLog {
+/*    display: grid;
+    place-items: center;*/
+    font-size: 20px;
+    border-color:blue;
+    background-color:azure;
+    width:640px;
+    height:200px;
+    text-align:left;
+}
+
