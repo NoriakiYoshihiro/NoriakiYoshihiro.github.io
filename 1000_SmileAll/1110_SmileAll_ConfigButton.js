@@ -39,7 +39,7 @@ const configButtonSmileAll = {
             logConsole.event(`Dialog closed and result is \'${result}\'.`);
             if (result) {
                 loggerSmileAll.show("Please come back soon.", "See you again! ");
-                logConsole.event("This game \'Smill All\' is closing.")
+                logConsole.event("This game \'Smile All\' is closing.")
                 document.location.href = "../index.html";
             }
         }
