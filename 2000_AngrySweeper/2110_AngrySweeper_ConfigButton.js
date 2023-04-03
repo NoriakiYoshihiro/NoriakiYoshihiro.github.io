@@ -34,8 +34,8 @@ const configButtonAngrySweeper = {
             const result = window.confirm("Do you really exit this game?");
             logConsole.event(`Dialog closed and result is \'${result}\'.`);
             if (result) {
-                logger.show("Please come back soon.", "See you again! ");
-                logConsole.event("This game \'Smill All\' is closing.")
+                loggerAngrySweeper.show("Please come back soon.", "See you again! ");
+                logConsole.event("This game \'Angry Sweeper\' is closing.")
                 document.location.href = "../index.html";
             }
         }
